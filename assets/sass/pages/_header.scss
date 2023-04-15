@@ -1,0 +1,29 @@
+#header{
+    .logoImg{
+        width: 60px;
+        object-fit: auto;
+    }
+
+    .bgColor01{
+        background-color: $dark;
+        border-bottom: 2px solid $secundary;
+    }
+
+    .titleCustom{
+        font-size: 3rem;
+        color: $primary;
+    }
+
+    .customLink{
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 2;
+        padding-left: 2rem;
+        transition: all .40s ease; 
+
+        &:hover{
+            color: $primary;
+            transform: translateX(10px);
+        }
+    }
+}

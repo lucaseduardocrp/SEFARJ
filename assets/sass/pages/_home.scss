@@ -1,0 +1,26 @@
+#home{
+    .homeText h2{
+        font-size: 6rem;
+        font-weight: 800;
+        text-align: center;
+        color: $primary;
+        margin-bottom: 60px;
+    }
+    .grid-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .box{
+            min-width: 350px;
+            text-align: center;
+            margin-bottom: 40px;
+
+            img{
+                width: 130px;
+                object-fit: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+section{
+    width: 100%;
+    min-height: 92vh;
+    padding: 120px 5% 120px;
+    color: $white;
+    background: $dark-200;
+}
+
+header{
+    width: 100%;
+    height: 8vh;
+}
