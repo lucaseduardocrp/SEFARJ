@@ -2,10 +2,73 @@
     padding: 120px 15% 160px;
 }
 
-.titleText h2{
-    font-size: var(--title-font);
-    font-weight: 800;
-    text-align: center;
-    color: $primary;
-    margin: 120px 0;
+.titleText{
+    h2{
+        font-size: var(--title-font);
+        font-weight: 800;
+        text-align: center;
+        margin: 120px 0;
+    }
 }
+
+.customBtn{
+    button {
+        padding: 1rem 5rem;
+        border: 2px solid $primary;
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: var(--a-font);
+        font-weight: 600;
+        transition: .2s;
+        z-index: 1;
+        color: $primary;
+       }
+       
+       button::before {
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(20deg);
+        background: $primary;
+        transition: .5s ease;
+        display: block;
+        z-index: -1;
+       }
+       
+       button:hover::before {
+        width: 105%;
+       }
+       
+       button:hover {
+        color: $white;
+       }
+       
+}
+
+.customBtn2{
+    button {
+       padding: 1rem 1.5rem;
+       background: $primary;
+       border: none;
+       border-radius: 8px;
+       text-align: center;
+       text-transform: uppercase;
+       font-size: var(--a-sm-font);
+       font-weight: 600;
+       color: $white;
+       transition: .3s;
+
+       &:hover{
+        transform: scale(0.9);
+       }
+    }
+}
+
+
+    

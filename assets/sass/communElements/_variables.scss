@@ -1,12 +1,12 @@
-$primary: #76b2d7;
-$secundary: #2D194D;
-$white: #f8f8f2;
-$purple: #6E00EA;
+$primary: #6226a7;
+$secundary: #76b2d7;
+$white: #ffffff;
+$purple: #2b0e4e;
 $red: #ff5555;
 $yellow: #f1fa8c;
 $green: #50fa7b;
-$dark-200: #0e0914;
-$dark: #0F071C;
+$dark-200: #090909;
+$dark: #131313;
 
 :root{
     --title-font: 6rem;
@@ -15,4 +15,6 @@ $dark: #0F071C;
     --h3-font: 3.3rem;
     --h4-font: 3rem;
     --p-font: 2rem;
+    --a-font: 1.8rem;
+    --a-sm-font: 1.5rem;
 }

@@ -1,8 +1,8 @@
 .contact{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    align-items: center;
     gap: 2.5rem;
+    padding-top: 170px;
 
     h4{ 
     margin: 18px 0;
