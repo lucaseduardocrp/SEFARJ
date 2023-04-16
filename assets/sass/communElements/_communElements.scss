@@ -3,9 +3,9 @@
 }
 
 .titleText h2{
-    font-size: 6rem;
+    font-size: var(--title-font);
     font-weight: 800;
     text-align: center;
     color: $primary;
-    margin-bottom: 60px;
+    margin: 120px 0;
 }

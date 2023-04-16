@@ -1,0 +1,21 @@
+@media (max-width: 530px){
+    :root{
+        --title-font: 3.6rem;
+        --h1-font: 3.6rem;
+        --h2-font: 3.3rem;
+        --h3-font: 3rem;
+        --h4-font: 2.5rem;
+        --p-font: 1.8rem;
+    }
+
+    .titleText h2{
+        margin: 40px 0;
+    }
+
+    #home{
+        .about-content .about-text p{
+             padding-right: 0px;
+        
+        }
+    }
+}

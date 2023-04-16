@@ -9,11 +9,39 @@
             min-width: 350px;
             text-align: center;
             margin-bottom: 40px;
+        }
+    }
+
+    .about-content{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns:  repeat(auto-fit, minmax(330px, 1fr));
+        padding: 0 20px;
+
+        .aboutImg{
+            text-align: center;
+            margin-bottom: 40px;
 
             img{
-                width: 130px;
+                width: 300px;
                 object-fit: auto;
             }
+        }
+
+        .about-text{
+            h3{
+                font-size: var(--h3-font);
+                font-weight: 700;
+                color: $primary;
+                margin-bottom: 30px;
+            }
+            
+           p{
+               font-size: var(--p-font);
+               line-height: 1.8;
+               padding-right: 40px;
+           }
         }
     }
 }
