@@ -12,16 +12,41 @@
     }
 
     .teamSection{
-        padding-top: 120px;
+        padding: 100px 0 50px;
+
         .team-grid{
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
+            gap: 4rem;
         }
 
         .card-team{
             width: 350px;
             height: 400px;
+            padding: 3rem;
+            border: 1px solid $primary;
+            border-radius: 1.6rem;
+
+            .inputImg{
+                img{
+                    width: 120px;
+                    object-fit: auto;
+                    border: 1px solid $primary;
+                    border-radius: 50%;
+                }
+            }
+
+            .card-info{
+                margin: 3rem 0rem 5rem;
+
+                .teamInfo{
+                    font-size: var(--p-font);
+                    font-weight: 600;
+                    line-height: 1.8;
+                }
+            }
         }
     }
 }
