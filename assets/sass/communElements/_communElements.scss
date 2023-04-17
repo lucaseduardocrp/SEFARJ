@@ -11,6 +11,14 @@
     }
 }
 
+.displayConfig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
 .customBtn{
     button {
         margin: 1rem;
@@ -35,7 +43,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%) rotate(20deg);
+        transform: translate(-50%, -50%) rotate(18deg);
         background: $primary;
         transition: .5s ease;
         display: block;
