@@ -1,7 +1,7 @@
 #teams{
     .tableHead{
         padding: 80px;
-        background: linear-gradient(95deg, #361e4d, #430f5e, #6226a7);
+        background: linear-gradient(180deg, #361e4d, #430f5e, #6226a7);
 
         h3{
             font-size: var(--title-font);
@@ -35,6 +35,7 @@
                     object-fit: auto;
                     border: 1px solid $primary;
                     border-radius: 50%;
+                    background-color: $purple;
                 }
             }
 
