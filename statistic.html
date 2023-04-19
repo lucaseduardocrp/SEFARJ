@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--BoxIcons Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--Bootstrap Icons Link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    
+    <!--Bootstrap CSS Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!--AOS Animation Link-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/icons/ligaLogo.png" type="image/x-icon">
+    
+    <title>SERJ | Os Maiores Torneios de Futebol - RJ</title>
+</head>
+<body>
+  <header id="header">
+        <div class="container-fluid">
+            <nav class="navbar navbar-dark fixed-top bgColor01">
+                <div class="container-fluid px-5">
+                  <a class="navbar-brand" href="./index.html#header">
+                    <img src="./assets/icons/ligaLogo.png" class="logoImg">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-2"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    
+                    <div class="offcanvas-header bgColor01 p-5">
+                      <h5 class="offcanvas-title titleCustom" id="offcanvasDarkNavbarLabel">SEFA-RJ | Sessões</h5>
+                      <button type="button" class="btn-close btn-close-white fs-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                  <div class="offcanvas-body bgColor01">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./index.html#header"><i class="bi bi-house"></i> Início</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./news.html"><i class="bi bi-envelope-paper"></i> Notícias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./tournament.html"><i class="bi bi-trophy-fill"></i> Torneios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./tables.html"><i class="bi bi-table"></i> Tabelas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./teams.html"><i class='bx bxs-t-shirt'></i> Times</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./statistic.html"><i class="bi bi-person-lines-fill"></i> Estatísticas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./games.html"><i class="bi bi-controller"></i> Jogos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="./index.html#contact"><i class="bi bi-telephone-fill"></i> Contato</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link customLink" href="#settings"><i class="bi bi-gear-fill"></i> Configurações</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  </div>
+                </div>
+            </nav>
+        </div>
+  </header>
+
+  <main>
+    <section class="tournament" id="tournament">
+        <div class="container text-center">
+            <div class="gridInfo displayConfig">
+                <div class="boxCampInfo">
+                    <h3 class="c1">Jogos <i class='bx bxs-trophy'></i></h3>
+                </div>
+                <div class="boxCampInfo">
+                    <h3 class="c2">Times <i class='bx bxs-t-shirt' ></i></h3>
+                </div>
+                <div class="boxCampInfo">
+                    <h3 class="c3">Atletas <i class='bx bxs-user'></i></h3>
+                </div>
+                <div class="boxCampInfo">
+                    <h3 class="c5">Gols <i class='bx bx-football'></i></h3>
+                </div>
+                <div class="boxCampInfo">
+                    <h3 class="c6">Assistências <i class="bi bi-hand-thumbs-up-fill"></i></h3>
+                </div>
+                <div class="boxCampInfo">
+                    <h3 class="c7">Cartões </h3>
+                </div>
+            </div>
+            <div class="customBtn p-5 text-center">
+                <button>Relatório Completo <i class="bi bi-person-vcard"></i></button>
+            </div>
+            <div class="container pt-5 displayConfig">
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>Ranking de Atletas</p>
+                    </div>
+                </div>
+
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>Artilharia</p>
+                    </div>
+                </div>
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>C. Amarelo</p>
+                    </div>
+                </div>
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>C. Vermelho</p>
+                    </div>
+                </div>
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>Assistências</p>
+                    </div>
+                </div>
+                <div class="campCard">
+                    <div class="imgCampCard">
+                        <img src="./assets/icons/ligaLogo.png">
+                    </div>
+                    <div class="campName">
+                        <p>Defesas</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="end">
+    <div class="last-text">
+        <p>Copyright © 2023 by Lucas Eduardo Crespo de Carvalho All Rights Reserved</p>
+    </div>
+    
+    <div class="top">
+        <a href="#header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+    <!--Bootstrap Script Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!--AOS Animation Script Link-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
